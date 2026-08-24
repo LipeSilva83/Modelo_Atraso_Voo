@@ -42,6 +42,16 @@ Random Forest Regressor: Apresentou desempenho superior à linha de base, demons
 
 Otimização: A seleção das 13 features mais relevantes e o ajuste de parâmetros via GridSearchCV permitiram reduzir a complexidade do modelo sem perda de performance.
 
+## 🎯 Resultados dos Modelos
+
+
+![Distribuição de Atrasos](imagens/distribuicao_atrasos.png)
+
+![Correlação de Features](imagens/correlacao_features.png)
+
+![Gráfico de Resíduos](imagens/Residual for RandomForestRegressor Model.png)
+
+
 # 🚀 Como Rodar o Projeto
 Para replicar a análise e os modelos localmente ou na nuvem, siga os passos abaixo.
 
