@@ -34,22 +34,30 @@ Random Forest Regressor: Algoritmo de aprendizado supervisionado baseado em um c
 
 # 📊 Resultados e Análise
 
-Os modelos foram treinados e validados utilizando etapas de tratamento de dados, engenharia de recursos (feature engineering e one-hot encoding com get_dummies), seleção de variáveis mais importantes (feature importance) e otimização de hiperparâmetros via GridSearchCV.
+Os modelos foram treinados e validados utilizando etapas de tratamento de dados, engenharia de recursos (feature engineering e one-hot encoding com get_dummies), seleção de variáveis mais importantes através de feature importance analysis.
 
-Baseline (DummyRegressor): Definiu a meta inicial a ser superada.
+**Baseline (DummyRegressor):** Definiu a meta inicial a ser superada.
 
-Random Forest Regressor: Apresentou desempenho superior à linha de base, demonstrando alta capacidade de generalização após validação cruzada e análise gráfica de resíduos (Residuals Plot e Prediction Error Plot).
+**Random Forest Regressor:** Apresentou desempenho superior à linha de base, demonstrando alta capacidade de generalização após validação cruzada e análise gráfica de resíduos.
 
-Otimização: A seleção das 13 features mais relevantes e o ajuste de parâmetros via GridSearchCV permitiram reduzir a complexidade do modelo sem perda de performance.
+**Otimização:** A seleção das 13 features mais relevantes e o ajuste de parâmetros via GridSearchCV permitiram reduzir a complexidade do modelo sem perda de performance.
 
-## 🎯 Resultados dos Modelos
+## 📈 Visualizações dos Resultados
 
+### Importância das Features
+![Feature Importances of Top 10 Features](imagens/Feature%20Importances%20of%20Top%2010%20Features.png)
 
-![Distribuição de Atrasos](imagens/distribuicao_atrasos.png)
+Esta visualização mostra as 10 features mais importantes identificadas pelo modelo Random Forest, indicando quais variáveis têm maior impacto na predição do atraso de voos.
 
-![Correlação de Features](imagens/correlacao_features.png)
+### Erro de Predição
+![Prediction Error for RandomForestRegressor](imagens/Prediction%20Error%20for%20RandomForestRegressor.png)
 
-![Gráfico de Resíduos](imagens/Residual for RandomForestRegressor Model.png)
+Gráfico de erro de predição que apresenta a relação entre valores preditos e valores reais, evidenciando a qualidade das previsões do modelo.
+
+### Análise de Resíduos
+![Residual for RandomForestRegressor Model](imagens/Residual%20for%20RandomForestRegressor%20Model.png)
+
+Gráfico de resíduos que valida a qualidade do ajuste do modelo, demonstrando a distribuição dos erros e a capacidade de generalização.
 
 
 # 🚀 Como Rodar o Projeto
