@@ -45,17 +45,17 @@ Os modelos foram treinados e validados utilizando etapas de tratamento de dados,
 ## 📈 Visualizações dos Resultados
 
 ### Importância das Features
-![Feature Importances of Top 10 Features](imagens/Feature%20Importances%20of%20Top%2010%20Features.png)
+![Feature Importances of Top 10 Features](imagens/Feature_Importances.png)
 
 Esta visualização mostra as 10 features mais importantes identificadas pelo modelo Random Forest, indicando quais variáveis têm maior impacto na predição do atraso de voos.
 
 ### Erro de Predição
-![Prediction Error for RandomForestRegressor](imagens/Prediction%20Error%20for%20RandomForestRegressor.png)
+![Prediction Error for RandomForestRegressor](imagens/Prediction_Error.png)
 
 Gráfico de erro de predição que apresenta a relação entre valores preditos e valores reais, evidenciando a qualidade das previsões do modelo.
 
 ### Análise de Resíduos
-![Residual for RandomForestRegressor Model](imagens/Residual%20for%20RandomForestRegressor%20Model.png)
+![Residual for RandomForestRegressor Model](imagens/Residual_RandomForestRegressor.png)
 
 Gráfico de resíduos que valida a qualidade do ajuste do modelo, demonstrando a distribuição dos erros e a capacidade de generalização.
 
