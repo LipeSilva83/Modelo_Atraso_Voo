@@ -1,2 +1,10 @@
 # Modelo_Atraso_Voo
-O objetivo deste projeto é preparar um conjunto de dados sobre atrasos de voos e construir um modelo de Machine Learning baseline (regressão) para prever o tempo de atraso (delay).
+
+Este projeto tem como objetivo tratar um conjunto de dados sobre voos e construir um modelo baseline de Machine Learning (Regressão) para prever o tempo de atraso (*flight delay*).
+
+## 🚀 Como Executar
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/Modelo_Atraso_Voo.git](https://github.com/SEU-USUARIO/Modelo_Atraso_Voo.git)
+   cd Modelo_Atraso_Voo
