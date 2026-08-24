@@ -55,7 +55,7 @@ Esta visualização mostra as 10 features mais importantes identificadas pelo mo
 Gráfico de erro de predição que apresenta a relação entre valores preditos e valores reais, evidenciando a qualidade das previsões do modelo.
 
 ### Análise de Resíduos
-![Residual for RandomForestRegressor Model](imagens/Residual_RandomForestRegressor.png)
+![Residual for RandomForestRegressor Model](Arquivos/imagens/Residual_RandomForestRegressor.png)
 
 Gráfico de resíduos que valida a qualidade do ajuste do modelo, demonstrando a distribuição dos erros e a capacidade de generalização.
 
